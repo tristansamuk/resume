@@ -1,6 +1,7 @@
 export const resume = {
   header: {
-    title: 'Tristan Samuk',
+    name: 'Tristan Samuk',
+    title: 'Front-end Engineer',
     address: 'Oakville, ON',
     phone: '647-334-1588',
     email: 'tsamuk@gmail.com',
@@ -13,7 +14,7 @@ export const resume = {
       url: 'https://www.github.com/tristansamuk',
     },
   },
-  profile: {
+  summary: {
     heading: 'Profile',
     description:
       'Front-end developer experienced in building scalable web and mobile applications using React, React Native, TypeScript, and AI tools. Strong background in SaaS sales and product strategy with proven ability to collaborate with product, design, and compliance teams.',
