@@ -1,6 +1,7 @@
 export const resume = {
   header: {
-    title: 'Tristan Samuk',
+    name: 'Tristan Samuk',
+    title: 'Front-end Engineer',
     address: 'Oakville, ON',
     phone: '647-334-1588',
     email: 'tsamuk@gmail.com',
