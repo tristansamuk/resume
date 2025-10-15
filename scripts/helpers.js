@@ -6,3 +6,7 @@ export const createTemplate = (html) => {
   }
   return template;
 };
+
+export const formatId = (string) => {
+  return string.toLowerCase().replace(/\s/g, '-');
+};
