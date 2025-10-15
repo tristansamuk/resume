@@ -7,10 +7,8 @@ export class Summary {
   constructor(parentClassName) {
     this.parentElement = document.querySelector(parentClassName);
     this.templateElement = createTemplate(`
-      <div class="summary">
         <h2 class="summary__heading">${summary.heading}</h2>
-        <p class="summary__text">${summary.description}</p>
-      </div>    
+        <p class="summary__text">${summary.description}</p>    
     `);
 
     this.component = document.importNode(this.templateElement.content, true);
