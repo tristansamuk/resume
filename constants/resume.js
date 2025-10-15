@@ -54,7 +54,7 @@ export const resume = {
         from: 'Oct 2022',
         to: 'Nov 2023',
         description: [
-          'Exceeded monthly quota by an average of 20% through effective pipeline management.',
+          'Exceeded monthly quota through effective pipeline management.',
           'Negotiated custom contracts and pricing proposals to increase close rate and retention.',
           'Collaborated with Solutions Engineers to align implementations with client needs.',
         ],
