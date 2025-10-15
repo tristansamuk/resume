@@ -1,8 +1,5 @@
-import { Header } from '../components/header/header.js';
-import { Summary } from '../components/summary/summary.js';
+import { components } from '../components/index.js';
 
-const header = new Header('.resume');
-const summary = new Summary('.resume');
-
-header.render();
-summary.render();
+for (const component of components) {
+  component.render();
+}
