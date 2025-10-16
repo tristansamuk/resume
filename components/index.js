@@ -1,4 +1,5 @@
 import { AdditionalSkills } from './additionalSkills/additionalSkills.js';
+import { Contact } from './header/contact.js';
 import { Education } from './education/education.js';
 import { Experience } from './experience/experience.js';
 import { Header } from './header/header.js';
@@ -6,6 +7,7 @@ import { Summary } from './summary/summary.js';
 import { TechSkills } from './techSkills/techSkills.js';
 
 const header = new Header('.header');
+const contact = new Contact('.header');
 const summary = new Summary('.summary');
 const experience = new Experience('.experience');
 const education = new Education('.education');
@@ -14,6 +16,7 @@ const additionalSkills = new AdditionalSkills('.additional-skills');
 
 export const components = [
   header,
+  contact,
   summary,
   experience,
   education,
