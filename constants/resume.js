@@ -112,11 +112,11 @@ export const resume = {
         location: 'Toronto, ON',
         qualification: 'PhD.',
         subject: 'English Literature',
-        date: 'Feb 2024',
+        date: 'Jun 2017',
       },
     ],
   },
-  technicalSkills: {
+  techSkills: {
     heading: 'Technical Skills',
     languages: {
       label: 'Languages',
