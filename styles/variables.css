@@ -1,0 +1,25 @@
+:root {
+  /* Colors */
+
+  --background-primary: #ffffff;
+  --text-primary: #000000;
+
+  /* Spacing */
+
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-5: 20px;
+  --spacing-6: 20px;
+  --spacing-7: 28px;
+
+  /* Typography */
+
+  --text-small: 12px;
+  --text-md: 16px;
+  --text-lg: 20px;
+  --font-weight-regular: 400;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 800;
+}
