@@ -8,6 +8,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  line-height: var(--spacing-5);
 }
 
 body {
@@ -48,6 +49,7 @@ ul {
   display: flex;
   flex-direction: column;
   width: 75%;
+  padding-right: var(--spacing-5);
 }
 
 .right-column {

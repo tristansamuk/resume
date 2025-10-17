@@ -1,5 +1,5 @@
 import { AdditionalSkills } from './additionalSkills/additionalSkills.js';
-import { Contact } from './header/contact.js';
+import { Contact } from './contact/contact.js';
 import { Education } from './education/education.js';
 import { Experience } from './experience/experience.js';
 import { Header } from './header/header.js';

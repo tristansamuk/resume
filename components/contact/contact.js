@@ -1,3 +1,4 @@
+import './contact.css';
 import { createTemplate } from '../../scripts/helpers.js';
 import { resume } from '../../constants/resume.js';
 
