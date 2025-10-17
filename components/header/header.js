@@ -1,5 +1,5 @@
+import './header.css';
 import { createTemplate } from '../../scripts/helpers.js';
-import { Contact } from './contact.js';
 import { resume } from '../../constants/resume.js';
 
 const { header } = resume;

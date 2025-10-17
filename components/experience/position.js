@@ -1,3 +1,4 @@
+import './position.css';
 import { createTemplate } from '../../scripts/helpers.js';
 
 export class Position {

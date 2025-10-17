@@ -1,3 +1,4 @@
+import './education.css';
 import { createTemplate, formatId } from '../../scripts/helpers.js';
 import { resume } from '../../constants/resume.js';
 

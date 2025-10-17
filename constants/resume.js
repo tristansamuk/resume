@@ -15,7 +15,7 @@ export const resume = {
     },
   },
   summary: {
-    heading: 'Profile',
+    heading: 'Summary',
     description:
       'Front-end developer experienced in building scalable web and mobile applications using React, React Native, TypeScript, and AI tools. Strong background in SaaS sales and product strategy with proven ability to collaborate with product, design, and compliance teams.',
   },
