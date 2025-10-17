@@ -8,17 +8,17 @@ export class Contact {
   constructor(parentClassName) {
     this.parentElement = document.querySelector(parentClassName);
     this.templateElement = createTemplate(`
-        <ul class="header__contact">
-          <li class="header__contact-info"></li>
-            <a class="header__link"></a>
+        <ul class="contact__list">
+          <li class="contact__info"></li>
+            <a class="contact__link"></a>
           </li>
         </ul>
       `);
 
     this.component = document.importNode(this.templateElement.content, true);
-    this.ulEl = this.component.querySelector('.header__contact');
-    this.liEl = this.component.querySelector('.header__contact-info');
-    this.aEl = this.component.querySelector('.header__link');
+    this.ulEl = this.component.querySelector('.contact__list');
+    this.liEl = this.component.querySelector('.contact__info');
+    this.aEl = this.component.querySelector('.contact__link');
 
     this.contactInfo = Object.values(header).filter(
       (item) =>
@@ -29,7 +29,7 @@ export class Contact {
     );
     this.links = [linkedIn, github];
 
-    this.component.querySelector('.header__contact').innerText = '';
+    this.component.querySelector('.contact__list').innerText = '';
   }
 
   addContactInfo() {

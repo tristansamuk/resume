@@ -1,3 +1,4 @@
+import './experience.css';
 import { Position } from './position.js';
 import { createTemplate } from '../../scripts/helpers.js';
 import { resume } from '../../constants/resume.js';

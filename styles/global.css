@@ -1,3 +1,5 @@
+@import './variables.css';
+
 :root {
   font-family: Robot, sans-serif;
 }
@@ -20,13 +22,22 @@ a {
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2);
 }
 
 .resume {
   display: flex;
   flex-direction: column;
+  margin: var(--spacing-24);
+}
+
+/* Layout */
+
+.summary {
+  padding-top: var(--spacing-4);
+  padding-bottom: var(--spacing-4);
 }
 
 .layout {
@@ -36,9 +47,29 @@ ul {
 .left-column {
   display: flex;
   flex-direction: column;
+  width: 75%;
 }
 
 .right-column {
   display: flex;
   flex-direction: column;
+  gap: var(--spacing-6);
+  width: 25%;
+}
+
+/* Headings */
+
+h2 {
+  padding-top: var(--spacing-4);
+  padding-bottom: var(--spacing-4);
+}
+
+h3 {
+  padding-top: var(--spacing-3);
+  padding-bottom: var(--spacing-3);
+}
+
+h4 {
+  padding-top: var(--spacing-1);
+  padding-bottom: var(--spacing-1);
 }

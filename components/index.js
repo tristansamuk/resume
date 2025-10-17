@@ -7,7 +7,7 @@ import { Summary } from './summary/summary.js';
 import { TechSkills } from './techSkills/techSkills.js';
 
 const header = new Header('.header');
-const contact = new Contact('.header');
+const contact = new Contact('.contact');
 const summary = new Summary('.summary');
 const experience = new Experience('.experience');
 const education = new Education('.education');
