@@ -28,7 +28,7 @@ ul {
   gap: var(--spacing-2);
 }
 
-.resume {
+#resume {
   display: flex;
   flex-direction: column;
   margin: var(--spacing-24);
@@ -74,4 +74,10 @@ h3 {
 h4 {
   padding-top: var(--spacing-1);
   padding-bottom: var(--spacing-1);
+}
+
+/* Utility */
+
+.hidden {
+  display: none;
 }

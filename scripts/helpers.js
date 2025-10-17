@@ -1,3 +1,5 @@
+import html2pdf from 'html2pdf.js';
+
 export const createTemplate = (html) => {
   const template = document.createElement('template');
   template.innerHTML = html.trim();
@@ -9,4 +11,10 @@ export const createTemplate = (html) => {
 
 export const formatId = (string) => {
   return string.toLowerCase().replace(/\s/g, '-');
+};
+
+export const savePDF = () => {
+  const resume = document.getElementById('resume');
+  console.log('this ran');
+  html2pdf(resume);
 };
