@@ -141,11 +141,8 @@ export const resume = {
     items: [
       'Collaboration',
       'Time Management',
-      'Public Speaking',
-      'Written Communication',
+      'Communication',
       'Organization',
-      'Leadership',
-      'Teaching',
     ],
   },
 };
