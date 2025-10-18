@@ -26,10 +26,6 @@ npm run dev
 - Adjust styles in `styles/global.css` and component-level CSS files (for example, `components/experience/experience.css`).
 - Modify component logic within the modules under `components/`.
 
-## PDF Export
-
-Click the **Download** button in the header. The helper in `scripts/helpers.js` temporarily hides the button, renders a high-resolution PDF via `html2pdf.js`, and restores the UI afterward.
-
 ## Project Structure
 
 ```
@@ -39,7 +35,3 @@ scripts/              # Bootstrap and helpers
 styles/               # Global and component styles
 index.html            # Entry point for Vite
 ```
-
-## License
-
-ISC © Tristan Samuk
