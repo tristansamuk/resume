@@ -2,7 +2,9 @@
   /* Colors */
 
   --background-primary: #ffffff;
-  --text-primary: #000000;
+  --text-color-primary: #000000;
+  --text-color-heading: #000000;
+  --text-color-subheading: #36454f;
 
   /* Spacing */
 
@@ -17,11 +19,11 @@
   /* Typography */
 
   --font-size-body: 14px;
-  --font-size-h4: 16px;
-  --font-size-h3: 18px;
-  --font-size-h2: 20px;
-  --font-size-h1: 30px;
+  --font-size-h4: 18px;
+  --font-size-h3: 20px;
+  --font-size-h2: 22px;
+  --font-size-h1: 36px;
+
+  --font-weight-light: 300;
   --font-weight-regular: 400;
-  --font-weight-semi-bold: 600;
-  --font-weight-bold: 800;
 }
