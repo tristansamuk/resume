@@ -26,16 +26,16 @@ export const toggleVisibility = (className) => {
 
 export const savePDF = async () => {
   toggleVisibility('.download-button');
+  const resume = document.getElementById('resume');
 
   const options = {
     margin: 0.5,
     filename: 'tristan-samuk-resume.pdf',
-    image: { type: 'jpeg', quality: 0.98 },
+    image: { type: 'jpeg', quality: 1 },
     html2canvas: { scale: 2 },
     jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' },
+    pagebreak: { before: '.break-before' },
   };
-
-  const resume = document.getElementById('resume');
 
   html2pdf().set(options).from(resume).save();
 

@@ -20,6 +20,14 @@ export class Experience {
 
     for (const position of experience.positions) {
       const item = new Position(parentEl);
+
+      // In the pdf, add a page break before the third position
+      // to avoid cutting off text
+
+      if (position === experience.positions[2]) {
+        item.addClass('break-before');
+      }
+
       item.setText(position);
       item.appendToParent();
     }

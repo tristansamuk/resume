@@ -29,6 +29,10 @@ export class Position {
     this.component.querySelector('.position__description').textContent = '';
   }
 
+  addClass(className) {
+    this.component.querySelector('.position').classList.add(className);
+  }
+
   setText(data) {
     this.titleEl.textContent = data.jobTitle;
     this.companyEl.textContent = data.company;
