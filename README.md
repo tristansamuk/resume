@@ -12,14 +12,10 @@ A responsive resume site built with vanilla JavaScript.
 
 In this project, I tried to use the component-based approach of modern front-end frameworks while keeping everything in plain JavaScript. Each resume section is a self-contained class that renders into placeholder elements in `index.html`. All data lives in one source file, which makes updates easy.
 
-## Prerequisites
-
-- Node.js 18+ (or any version supported by Vite 7).
-
 ## Getting Started
 
 ```sh
-git clone <repo-url>
+git clone https://github.com/tristansamuk/resume.git
 npm install
 npm run dev
 ```
