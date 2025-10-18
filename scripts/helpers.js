@@ -37,7 +37,11 @@ export const savePDF = async () => {
     pagebreak: { before: '.break-before' },
   };
 
-  html2pdf().set(options).from(resume).save();
+  try {
+    await html2pdf().set(options).from(resume).save();
+  } catch (error) {
+    console.error(error);
+  }
 
   toggleVisibility('.download-button');
 };
