@@ -21,7 +21,7 @@ body {
 #resume {
   display: flex;
   flex-direction: column;
-  padding: 2in, 0.5in;
+  padding: 0.5in;
   max-width: 8.5in;
   font-size: var(--font-size-body);
 }
@@ -35,14 +35,7 @@ ul {
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  gap: var(--spacing-2);
-}
-
-#resume {
-  display: flex;
-  flex-direction: column;
-  padding: 0.5in;
-  max-width: 8.5in;
+  gap: var(--spacing-1);
 }
 
 /* Layout */
