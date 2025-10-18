@@ -14,6 +14,17 @@
 body {
   width: 100%;
   overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  padding: var(--spacing-24) var(--spacing-4);
+}
+
+#resume {
+  display: flex;
+  flex-direction: column;
+  max-width: 8in;
+  font-size: var(--font-size-body);
+  padding-top: var(--spacing-2);
 }
 
 a {
@@ -25,13 +36,7 @@ ul {
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  gap: var(--spacing-2);
-}
-
-.resume {
-  display: flex;
-  flex-direction: column;
-  margin: var(--spacing-24);
+  gap: var(--spacing-1);
 }
 
 /* Layout */
@@ -61,17 +66,29 @@ ul {
 
 /* Headings */
 
+h1 {
+  font-size: var(--font-size-h1);
+}
+
 h2 {
   padding-top: var(--spacing-4);
   padding-bottom: var(--spacing-4);
+  font-size: var(--font-size-h2);
 }
 
 h3 {
   padding-top: var(--spacing-3);
   padding-bottom: var(--spacing-3);
+  font-size: var(--font-size-h3);
 }
 
 h4 {
   padding-top: var(--spacing-1);
-  padding-bottom: var(--spacing-1);
+  font-size: var(--font-size-h4);
+}
+
+/* Utility */
+
+.hidden {
+  display: none;
 }
