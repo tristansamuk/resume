@@ -14,6 +14,16 @@
 body {
   width: 100%;
   overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+#resume {
+  display: flex;
+  flex-direction: column;
+  padding: 2in, 0.5in;
+  max-width: 8.5in;
+  font-size: var(--font-size-body);
 }
 
 a {
@@ -31,7 +41,8 @@ ul {
 #resume {
   display: flex;
   flex-direction: column;
-  margin: var(--spacing-24);
+  padding: 0.5in;
+  max-width: 8.5in;
 }
 
 /* Layout */
@@ -61,19 +72,25 @@ ul {
 
 /* Headings */
 
+h1 {
+  font-size: var(--font-size-h1);
+}
+
 h2 {
   padding-top: var(--spacing-4);
   padding-bottom: var(--spacing-4);
+  font-size: var(--font-size-h2);
 }
 
 h3 {
   padding-top: var(--spacing-3);
   padding-bottom: var(--spacing-3);
+  font-size: var(--font-size-h3);
 }
 
 h4 {
   padding-top: var(--spacing-1);
-  padding-bottom: var(--spacing-1);
+  font-size: var(--font-size-h4);
 }
 
 /* Utility */
