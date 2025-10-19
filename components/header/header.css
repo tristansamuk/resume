@@ -6,5 +6,5 @@
 
 .header__job-title {
   padding-top: var(--spacing-4);
-  margin-bottom: 28px;
+  /* margin-bottom: var(--spacing-1); */
 }
