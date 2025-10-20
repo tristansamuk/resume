@@ -23,7 +23,7 @@ export const resume = {
     heading: 'Experience',
     positions: [
       {
-        jobTitle: 'Software Engineer L1',
+        jobTitle: 'Software Engineer',
         company: 'Newton',
         location: 'Toronto, ON',
         from: 'Oct 2024',
@@ -31,7 +31,7 @@ export const resume = {
         description: [
           'Developed and shipped complex onboarding flows on both web and mobile with comprehensive unit testing.',
           'Partnered with product, design, and compliance teams to ensure UI met regulatory requirements.',
-          'Designed and deployed Django REST APIs for real-time crypto price alerts used by thousands of active users.',
+          'Designed and deployed REST APIs for real-time crypto price alerts used by thousands of active users.',
           'Diagnosed and resolved production issues reported by CX, improving response times and user satisfaction.',
         ],
       },
